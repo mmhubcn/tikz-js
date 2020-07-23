@@ -2,7 +2,11 @@
   "name": "tikz-js",
   "version": "0.0.1",
   "description": "generate tikz code to svg",
-  "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/mmhubcn/tikz-js.git"
+},
+  "main": "./lib/tikz.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "@svgdotjs/svg.js": "^3.0.16",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.19",
+    "pegjs": "0.10.x"
   }
 }
